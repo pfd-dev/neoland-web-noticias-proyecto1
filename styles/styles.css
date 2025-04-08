@@ -39,7 +39,6 @@ img {
 /*===========================================================*/
 
 .contenido_principal {
-    width: 70%;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -77,9 +76,14 @@ img {
     }
 }
 
+@media (min-width: 768px) {
+    .contenedor_principal {
+        width: 70%;
+    }
+}
+
 /*===========================================================*/
 .contenido_lateral {
-    width: 30%;
     padding: 1em;
 
     section {
@@ -98,6 +102,12 @@ img {
             padding: 1em;
             width: 100%;
         }
+    }
+}
+
+@media (min-width: 768px) {
+    .contenido_lateral {
+        width: 30%;
     }
 }
 
